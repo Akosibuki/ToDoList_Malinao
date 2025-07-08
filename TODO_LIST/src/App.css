@@ -1,0 +1,87 @@
+.app {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.add-heading {
+  margin-bottom: 30px;
+}
+
+.add-heading input {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+}
+
+.add-heading button {
+  padding: 10px 15px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.heading-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.heading-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  min-width: 250px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.heading-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-header h3 {
+  margin: 0;
+}
+
+.delete-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.todo-items {
+  text-align: left;
+  margin: 10px 0;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.todo-items li {
+  margin-bottom: 5px;
+}
+
+.add-item input {
+  width: 150px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.add-item button {
+  padding: 5px 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
